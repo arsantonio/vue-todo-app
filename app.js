@@ -3,7 +3,7 @@ const LOCAL_STORAGE_KEY = 'vue-todo-app' ;
 const todoApp = new Vue({
   el: '.todoapp',
   data: {
-    title: 'Todos',
+    title: 'Tareas',
     todos: JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || [
       { text: 'Learn JavaScript ES6+ goodies', isDone: true },
       { text: 'Learn Vue', isDone: false },
