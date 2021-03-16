@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "serve": "npx live-server --entry-file=index.html",
+    "serve": "npx live-server --port=8090 --entry-file=index.html",
     "start": "npm run serve"
   },
   "author": "Adrian Mejia <me@adrianmejia.com> (http://adrianmejia.com)",
